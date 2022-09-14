@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon"
+        href="data:image/gif;base64,R0lGODlhEAAQAPcAAAAAAAAAMwAAZgAAmQAAzAAA/wArAAArMwArZgArmQArzAAr/wBVAABVMwBVZgBVmQBVzABV/wCAAACAMwCAZgCAmQCAzACA/wCqAACqMwCqZgCqmQCqzACq/wDVAADVMwDVZgDVmQDVzADV/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMrADMrMzMrZjMrmTMrzDMr/zNVADNVMzNVZjNVmTNVzDNV/zOAADOAMzOAZjOAmTOAzDOA/zOqADOqMzOqZjOqmTOqzDOq/zPVADPVMzPVZjPVmTPVzDPV/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YrAGYrM2YrZmYrmWYrzGYr/2ZVAGZVM2ZVZmZVmWZVzGZV/2aAAGaAM2aAZmaAmWaAzGaA/2aqAGaqM2aqZmaqmWaqzGaq/2bVAGbVM2bVZmbVmWbVzGbV/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5krAJkrM5krZpkrmZkrzJkr/5lVAJlVM5lVZplVmZlVzJlV/5mAAJmAM5mAZpmAmZmAzJmA/5mqAJmqM5mqZpmqmZmqzJmq/5nVAJnVM5nVZpnVmZnVzJnV/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wrAMwrM8wrZswrmcwrzMwr/8xVAMxVM8xVZsxVmcxVzMxV/8yAAMyAM8yAZsyAmcyAzMyA/8yqAMyqM8yqZsyqmcyqzMyq/8zVAMzVM8zVZszVmczVzMzV/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8rAP8rM/8rZv8rmf8rzP8r//9VAP9VM/9VZv9Vmf9VzP9V//+AAP+AM/+AZv+Amf+AzP+A//+qAP+qM/+qZv+qmf+qzP+q///VAP/VM//VZv/Vmf/VzP/V////AP//M///Zv//mf//zP///wAAAAAAAAAAAAAAACH5BAEAAPwALAAAAAAQABAAAAi8AAEIHKgCwBYYAFSogLGIIIAVBmBsWQgjBowVCFUEMKDCAMYtYCZahKFwIMaCDGFomVhxIEIAMVTEHGnxYMIAJAGEgcFzhRaSOTkaWLRukZYYK0NWLKgx2CKnO7WESWpRYMYwTkNKXfkTpsyF63YpWgRm68WEHGMEOxYsEphFRi0yPaCSbaRdixRtraoizNNgwXYFqxVGK0mZMGoBZps379GKHMPcZbsrzFi4WrqGCbNu7a5dYGpBGjs1RkAAOw=="
+        type="image/gif">
+    <title>Изделия из дерева и металла</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <script src="skript.js"></script>
+</head>
+
+<body>
+
+    <!-- первая строка сайта с информацией о фирме, адресом и телефоном -->
+    <div class="container clearfix">
+        <div class="dropdown">
+            <button class="dropbtn"></button>
+            <div class="dropdown-content">
+                <a href="vorota.html">Ворота</a>
+                <a href="kalitki.html">Калитки</a>
+                <a href="zabor.html">Заборы</a>
+                <a href="kachel.html">Садовые качели</a>
+                <a href="mebel.html">Дизайнерская мебель</a>
+                <a href="besedki.html">Беседки</a>
+                <a href="onas.html">О нас</a>
+            </div>
+        </div>
+        <a class="glavnaja" href="index.html">
+            <div id="firma">
+                <ul class="spisok">
+                    <li class="zagolovok_bol">BiuldHouse</li>
+                    <li class="font_mut">всё для уюта вашего участка</li>
+                </ul>
+            </div>
+        </a>
+
+        <div id="telefon">
+            <!-- значок для телефона -->
+            <img src="IMG/telefon.svg" alt="телефон" title="телефон">
+            <ul class="spisok">
+                <li class="zagolovok">Телефон</li>
+                <li class="font_mut phone"><a href="tel:+375296668888">+375 29 666 88 88</a></li>
+            </ul>
+        </div>
+        <div id="adres">
+            <!-- значок для локации -->
+            <img src="IMG/adres.svg" alt="адрес" title="адрес">
+            <ul class="spisok">
+                <li class="zagolovok">Адрес</li>
+                <li class="font_mut">г.Брест ул.Майская,2 оф.25</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- меню сайта -->
+    <nav class="container clearfix">
+        <a href="vorota.html" class="dropbtn">Ворота</a>
+        <a href="kalitki.html" class="dropbtn">Калитки</a>
+        <a href="zabor.html" class="dropbtn">Заборы</a>
+        <a href="kachel.html" class="dropbtn">Качели</a>
+        <a href="mebel.html" class="dropbtn">Мебель для сада</a>
+        <a href="besedki.html" class="dropbtn">Беседки</a>
+        <a href="onas.html" class="dropbtn">О нас</a>
+    </nav>
+    <!-- блок с фиксированной картинкой и информацией о фирме -->
+    <div id="photo_drugie">
+        <div class="fon_photo">
+            <p class="zagolovok_bol">Изготоление изделий из дерева металла<br>
+                Сварочные работы</p>
+        </div>
+    </div>
+    <!-- блок с информацией о товаре -->
+    <div class="container info ">
+        <a href="index.html">Главная</a>
+        <span> / Калитки</span>
+        
+        <p> <b>Калитка для забора</b> &mdash; неотъемлемый атрибут частного дома, дачи, предприятия или загородного комплекса.
+            Она
+            организовывает безопасное движение людей через забор. У покупателей пользуется спросом металлические калитки
+            для улицы, которые изготавливаются по типовым параметрам. Материал надежный и долговечный, подходит под
+            разные типы ограждения и поэтому не требует частого обслуживания. </p>
+        <p>Калитка должна вписываться в общий стиль оформления забора и участка, быть практичной и удобной в
+            эксплуатации, а также иметь эстетичный внешний вид.</p>
+        <p>Калитка может быть зашита по Вашему желанию любым материалом &mdash; профнастилом, штакетником, панелями &quot;жалюзи&quot; и др.</p>
+        <img src="IMG/kalitka.jpg"  alt='калитка' title="калитка">
+    </div>
+
+    <!-- подвал сайта -->
+    <div class="footer">
+        <div class="container containerflex">
+            <div class="flex1">
+                <p class="centrovka company">BiuldHouse</p>
+                <p class="centrovka zagolovok_bol">+375 29 666 88 88</p>
+                <p class="font_mut centrovka zagolovok_sr">e-mail: buildhouse@gmail.com</p>
+                <a href="https://instagram.com"><img class="logo" src="IMG/inst_logo.gif"></a>
+                <a href="https://facebook.com"><img class="logo" src="IMG/f_logo.gif"></a>
+            </div>
+            <div class="flex2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.240917679081!2d23.69269973486652!3d52.09354687308937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210be5b11ddf61%3A0x429e51b1ec373b7d!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPLCDQkdGA0LXRgdGCLCDQkdC10LvQsNGA0YPRgdGM!5e0!3m2!1sru!2spl!4v1649705549171!5m2!1sru!2spl"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
